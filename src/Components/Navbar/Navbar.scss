@@ -1,0 +1,30 @@
+.navbar1{
+    height: 12px;
+
+    .navItems{
+        display: flex;
+        justify-content: space-around;
+        padding: 18px;
+        .left{
+            .iconText{
+                font-size: 30px;
+                letter-spacing: 2px;
+            }
+        }
+        .middle{
+            display: flex;
+            gap:20px;
+            align-items: center;
+            .lnk{
+                text-decoration: none;
+                color:black
+            }
+        }
+        .right{
+            display: flex;
+            gap:12px;
+            cursor: pointer;
+            align-items: center;
+        }
+    }
+}

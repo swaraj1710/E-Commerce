@@ -1,0 +1,9 @@
+.Foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    .left{
+        font-size: 80px;
+        color: white;
+    }
+}
